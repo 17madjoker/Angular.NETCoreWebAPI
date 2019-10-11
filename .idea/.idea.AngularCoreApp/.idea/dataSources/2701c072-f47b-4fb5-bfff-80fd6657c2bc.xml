@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.16">
+    <root id="1">
+      <ServerVersion>14.0.1000</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="EvelDB">
+      <ObjectId>7</ObjectId>
+    </database>
+    <database id="3" parent="1" name="Pluto_Queries">
+      <ObjectId>8</ObjectId>
+    </database>
+    <database id="4" parent="1" name="School">
+      <ObjectId>5</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="ShopDB">
+      <ObjectId>6</ObjectId>
+    </database>
+    <database id="6" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Current>1</Current>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+      <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@DESKTOP-GM75CTC\SQLEXPRESS</Fingerprint>
+    </database>
+    <database id="7" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+  </database-model>
+</dataSource>

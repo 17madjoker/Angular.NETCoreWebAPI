@@ -1,0 +1,24 @@
+﻿GET https://localhost:5001/api/makes
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-11T052018.200.json
+
+###
+
+GET https://localhost:5001/https://localhost:5001/api/makes
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-11T052011.404.html
+
+###
+
+GET https://localhost:5001/api/makes
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-11T120030.500.txt
+
+###
+
