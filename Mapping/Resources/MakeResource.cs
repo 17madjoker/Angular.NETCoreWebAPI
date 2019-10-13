@@ -3,17 +3,13 @@ using AngularCoreApp.Models;
 
 namespace AngularCoreApp.Mapping.Resources
 {
-    public class MakeResource
+    public class MakeResource : KeyValuePairResource
     {
         public MakeResource()
         {
-            Models = new List<ModelResource>();
+            Models = new List<KeyValuePairResource>();
         }
-
-        public int Id { get; set; }
-
-        public string Name { get; set; }
-
-        public ICollection<ModelResource> Models { get; set; }
+        
+        public ICollection<KeyValuePairResource> Models { get; set; }
     }
 }

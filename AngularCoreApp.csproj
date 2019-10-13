@@ -26,8 +26,6 @@
     <Content Remove="$(SpaRoot)**" />
     <None Remove="$(SpaRoot)**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
-    <None Include="ClientApp\src\app\services\make.service.spec.ts" />
-    <None Include="ClientApp\src\app\services\make.service.ts" />
     <None Include="ClientApp\src\app\shared\Vehicle.ts" />
   </ItemGroup>
 

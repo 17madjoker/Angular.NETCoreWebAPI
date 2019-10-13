@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AngularCoreApp.Models
 {
+    [Table("Features")]
     public class Feature
     {
         public int Id { get; set; }

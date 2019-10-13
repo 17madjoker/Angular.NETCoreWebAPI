@@ -1,3 +1,6 @@
 ﻿export class Vehicle {
-  public make? : string
+  public makeId? : string;
+  public modelId? : string;
+  public isRegistered? : boolean;
+  public features : number[];
 }

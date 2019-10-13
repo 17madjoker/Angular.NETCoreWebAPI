@@ -169,7 +169,7 @@
               <e p="nav-menu.component.ts" t="Include" />
             </e>
             <e p="services" t="Include">
-              <e p="make.service.ts" t="Include" />
+              <e p="vehicle.service.ts" t="Include" />
             </e>
             <e p="shared" t="Include">
               <e p="Vehicle.ts" t="Include" />
@@ -204,20 +204,26 @@
       <e p="Controllers" t="Include">
         <e p="FeaturesController.cs" t="Include" />
         <e p="MakesController.cs" t="Include" />
+        <e p="VehiclesController.cs" t="Include" />
         <e p="WeatherForecastController.cs" t="Include" />
+      </e>
+      <e p="DIPCore" t="Include">
+        <e p="IUnitOfWork.cs" t="Include" />
+        <e p="IVehicleRepository.cs" t="Include" />
       </e>
       <e p="Mapping" t="Include">
         <e p="MappingProfile.cs" t="Include" />
         <e p="Resources" t="Include">
-          <e p="FeatureResource.cs" t="Include" />
+          <e p="ContactResource.cs" t="Include" />
           <e p="KeyValuePairResource.cs" t="Include" />
           <e p="MakeResource.cs" t="Include" />
-          <e p="ModelResource.cs" t="Include" />
+          <e p="SaveVehicleResource.cs" t="Include" />
+          <e p="VehicleResource.cs" t="Include" />
         </e>
       </e>
       <e p="Migrations" t="Include">
-        <e p="20191011101833_InitialCreate.cs" t="Include" />
-        <e p="20191011101833_InitialCreate.Designer.cs" t="Include" />
+        <e p="20191012123819_InitMigration.cs" t="Include" />
+        <e p="20191012123819_InitMigration.Designer.cs" t="Include" />
         <e p="AppDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
@@ -225,6 +231,8 @@
         <e p="Feature.cs" t="Include" />
         <e p="Make.cs" t="Include" />
         <e p="Model.cs" t="Include" />
+        <e p="Vehicle.cs" t="Include" />
+        <e p="VehicleFeature.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -242,6 +250,10 @@
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Repository" t="Include">
+        <e p="UnitOfWork.cs" t="Include" />
+        <e p="VehicleRepository.cs" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
       <e p="WeatherForecast.cs" t="Include" />

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -9,7 +10,7 @@ namespace AngularCoreApp.Models
     {
         public Make()
         {
-            Models = new List<Model>();
+            Models = new Collection<Model>();
         }
 
         [Key]
