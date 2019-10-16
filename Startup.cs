@@ -6,10 +6,12 @@ using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 namespace AngularCoreApp
 {
@@ -25,6 +27,15 @@ namespace AngularCoreApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddLogging(
+                builder =>
+                {
+                    builder.AddFilter("Microsoft", LogLevel.None)
+                        .AddFilter("System", LogLevel.None)
+                        .AddFilter("NToastNotify", LogLevel.None)
+                        .AddConsole();
+                });
+            
             services.AddScoped<IVehicleRepository, VehicleRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
                 
@@ -32,8 +43,9 @@ namespace AngularCoreApp
             
             services.AddDbContext<AppDbContext>(options => 
                 options.UseSqlServer(Configuration.GetConnectionString("Default")));
-            
-            services.AddControllersWithViews();
+
+            // AddNewtonsoftJson serialization and deserialization on core 3.0
+            services.AddControllersWithViews().AddNewtonsoftJson();
             
 //            services.AddMvc(option => option.EnableEndpointRouting = false)
 //                .SetCompatibilityVersion(CompatibilityVersion.Version_3_0)

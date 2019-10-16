@@ -65,6 +65,7 @@
         <e p="node_modules\domino" t="IncludeRecursive" />
         <e p="node_modules\es6-promise" t="IncludeRecursive" />
         <e p="node_modules\fast-deep-equal" t="IncludeRecursive" />
+        <e p="node_modules\font-awesome" t="IncludeRecursive" />
         <e p="node_modules\jasmine-core" t="IncludeRecursive" />
         <e p="node_modules\jasmine-spec-reporter" t="IncludeRecursive" />
         <e p="node_modules\jquery" t="IncludeRecursive" />
@@ -75,6 +76,7 @@
         <e p="node_modules\karma-jasmine-html-reporter" t="IncludeRecursive" />
         <e p="node_modules\license-webpack-plugin" t="IncludeRecursive" />
         <e p="node_modules\magic-string" t="IncludeRecursive" />
+        <e p="node_modules\ng2-toasty" t="IncludeRecursive" />
         <e p="node_modules\node-sass" t="IncludeRecursive" />
         <e p="node_modules\oidc-client" t="IncludeRecursive" />
         <e p="node_modules\popper.js" t="IncludeRecursive" />
@@ -83,6 +85,7 @@
         <e p="node_modules\protractor" t="IncludeRecursive" />
         <e p="node_modules\reflect-metadata" t="IncludeRecursive" />
         <e p="node_modules\rxjs" t="IncludeRecursive" />
+        <e p="node_modules\rxjs-compat" t="IncludeRecursive" />
         <e p="node_modules\source-map" t="IncludeRecursive" />
         <e p="node_modules\sourcemap-codec" t="IncludeRecursive" />
         <e p="node_modules\symbol-observable" t="IncludeRecursive" />
@@ -140,6 +143,7 @@
         <e p="node_modules\upath" t="IncludeRecursive" />
         <e p="node_modules\uri-js" t="IncludeRecursive" />
         <e p="node_modules\webdriver-js-extender" t="IncludeRecursive" />
+        <e p="node_modules\webpack-hot-middleware" t="IncludeRecursive" />
         <e p="node_modules\zone.js" t="IncludeRecursive" />
         <e p="package-lock.json" t="Include" />
         <e p="package.json" t="Include" />
@@ -148,6 +152,7 @@
           <e p="app" t="Include">
             <e p="app.component.html" t="Include" />
             <e p="app.component.ts" t="Include" />
+            <e p="app.error-handler.ts" t="Include" />
             <e p="app.module.ts" t="Include" />
             <e p="app.server.module.ts" t="Include" />
             <e p="counter" t="Include">
@@ -163,21 +168,32 @@
               <e p="home.component.html" t="Include" />
               <e p="home.component.ts" t="Include" />
             </e>
+            <e p="Models" t="Include">
+              <e p="contact.ts" t="Include" />
+              <e p="keyValueKey.ts" t="Include" />
+              <e p="keyValuePair.ts" t="Include" />
+              <e p="Vehicle.ts" t="Include" />
+            </e>
             <e p="nav-menu" t="Include">
               <e p="nav-menu.component.css" t="Include" />
               <e p="nav-menu.component.html" t="Include" />
               <e p="nav-menu.component.ts" t="Include" />
             </e>
+            <e p="pagination" t="Include">
+              <e p="pagination.component.html" t="Include" />
+              <e p="pagination.component.ts" t="Include" />
+            </e>
             <e p="services" t="Include">
               <e p="vehicle.service.ts" t="Include" />
-            </e>
-            <e p="shared" t="Include">
-              <e p="Vehicle.ts" t="Include" />
             </e>
             <e p="vehicle-form" t="Include">
               <e p="vehicle-form.component.css" t="Include" />
               <e p="vehicle-form.component.html" t="Include" />
               <e p="vehicle-form.component.ts" t="Include" />
+            </e>
+            <e p="vehicle-list" t="Include">
+              <e p="vehicle-list.component.html" t="Include" />
+              <e p="vehicle-list.component.ts" t="Include" />
             </e>
           </e>
           <e p="assets" t="Include">
@@ -204,6 +220,7 @@
       <e p="Controllers" t="Include">
         <e p="FeaturesController.cs" t="Include" />
         <e p="MakesController.cs" t="Include" />
+        <e p="ModelsController.cs" t="Include" />
         <e p="VehiclesController.cs" t="Include" />
         <e p="WeatherForecastController.cs" t="Include" />
       </e>
@@ -211,13 +228,19 @@
         <e p="IUnitOfWork.cs" t="Include" />
         <e p="IVehicleRepository.cs" t="Include" />
       </e>
+      <e p="extensions" t="Include">
+        <e p="IQuery.cs" t="Include" />
+        <e p="QueryableExtensions.cs" t="Include" />
+      </e>
       <e p="Mapping" t="Include">
         <e p="MappingProfile.cs" t="Include" />
         <e p="Resources" t="Include">
           <e p="ContactResource.cs" t="Include" />
           <e p="KeyValuePairResource.cs" t="Include" />
           <e p="MakeResource.cs" t="Include" />
+          <e p="QueryResultResource.cs" t="Include" />
           <e p="SaveVehicleResource.cs" t="Include" />
+          <e p="VehicleQueryResource.cs" t="Include" />
           <e p="VehicleResource.cs" t="Include" />
         </e>
       </e>
@@ -231,8 +254,10 @@
         <e p="Feature.cs" t="Include" />
         <e p="Make.cs" t="Include" />
         <e p="Model.cs" t="Include" />
+        <e p="QueryResult.cs" t="Include" />
         <e p="Vehicle.cs" t="Include" />
         <e p="VehicleFeature.cs" t="Include" />
+        <e p="VehicleQuery.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -241,6 +266,7 @@
           </e>
         </e>
       </e>
+      <e p="package-lock.json" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Pages" t="Include">
         <e p="_ViewImports.cshtml" t="Include" />

@@ -1,0 +1,19 @@
+﻿using AngularCoreApp.Extensions;
+
+namespace AngularCoreApp.Models
+{
+    public class VehicleQuery : IQuery
+    {
+        public int? MakeId { get; set; }
+        
+        public int? ModelId { get; set; }
+        
+        public string SortBy { get; set; }
+        
+        public bool IsSortAsc { get; set; }
+
+        public int Page { get; set; }
+        
+        public int PageSize { get; set; }
+    }
+}

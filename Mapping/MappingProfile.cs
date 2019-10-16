@@ -15,6 +15,8 @@ namespace AngularCoreApp.Mapping
 //            CreateMap<Make, MakeResource>().ForMember(vr => vr.Models,
 //                opt => opt.MapFrom(v => v.Models.Select(vf => new Model {Id = vf.Id, Name = vf.Name})));
 
+            CreateMap(typeof(QueryResult<>), typeof(QueryResultResource<>));
+
             CreateMap<Make, MakeResource>();
             
             CreateMap<Make, KeyValuePairResource>();
@@ -42,6 +44,8 @@ namespace AngularCoreApp.Mapping
                     operObj => operObj.MapFrom(veh => veh.Model.Make));
             
             // From Resource to API mapping
+
+            CreateMap<VehicleQueryResource, VehicleQuery>();
             
             CreateMap<SaveVehicleResource, Vehicle>()
                 .ForMember(veh => veh.Id, operObj => operObj.Ignore())

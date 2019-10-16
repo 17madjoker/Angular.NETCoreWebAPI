@@ -2,42 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45bd272-63a8-43a5-90f2-165813e954e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AngularCoreApp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/VehiclesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIPCore/IUnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIPCore/IVehicleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mapping/Resources/ContactResource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mapping/Resources/SaveVehicleResource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mapping/Resources/VehicleResource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Vehicle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/VehicleFeature.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repository/UnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repository/VehicleRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/app.error-handler.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/models/contact.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/models/keyValuePair.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/models/vehicle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/vehicle-list/vehicle-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/vehicle-list/vehicle-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/ModelsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extensions/IQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extensions/QueryableExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mapping/Resources/QueryResultResource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mapping/Resources/VehicleQueryResource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/QueryResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/VehicleQuery.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AngularCoreApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AngularCoreApp/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AngularCoreApp/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AngularCoreApp/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AngularCoreApp/.idea/dataSources/2701c072-f47b-4fb5-bfff-80fd6657c2bc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AngularCoreApp/.idea/dataSources/2701c072-f47b-4fb5-bfff-80fd6657c2bc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AngularCoreApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AngularCoreApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AngularCoreApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AngularCoreApp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/services/make.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/services/vehicle.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/shared/Vehicle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/shared/Vehicle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/services/vehicle.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/services/vehicle.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/shared/Vehicle.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/src/app/vehicle-form/vehicle-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/vehicle-form/vehicle-form.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/src/app/vehicle-form/vehicle-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/vehicle-form/vehicle-form.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/FeaturesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/FeaturesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/VehiclesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/VehiclesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIPCore/IVehicleRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DIPCore/IVehicleRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mapping/MappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mapping/MappingProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mapping/Resources/FeatureResource.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mapping/Resources/KeyValuePairResource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mapping/Resources/KeyValuePairResource.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mapping/Resources/MakeResource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mapping/Resources/MakeResource.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mapping/Resources/ModelResource.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20191011101833_InitialCreate.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20191011101833_InitialCreate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/AppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Feature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Feature.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Make.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Make.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/VehicleRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/VehicleRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,14 +87,21 @@
     <setting file="file://$PROJECT_DIR$/Mapping/Resources/KeyValuePairResource.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/VehicleFeature.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/FeaturesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/IQuery.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6D260089-8291-416E-ACBA-D905B4D24C31/20/3f0b7783/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/QueryResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mapping/Resources/QueryResultResource.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Mapping/MappingProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/QueryableExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FA94BAD0-5526-42B0-937A-F3FA847AB855/83/888e6c92/Expression.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Repository/VehicleRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mapping/Resources/VehicleQueryResource.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E407D4BA-C36C-45DA-982B-FD389A659F31/16/Profile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Vehicle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/ModelsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DIPCore/IVehicleRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/VehicleQuery.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Make.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Mapping/Resources/MakeResource.cs" root0="FORCE_HIGHLIGHTING" />
@@ -123,46 +125,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/appsettings.json" />
-        <option value="$PROJECT_DIR$/Migrations/20191010161801_SeedDatabase.cs" />
-        <option value="2701c072-f47b-4fb5-bfff-80fd6657c2bc/database/AngularCore/schema/dbo/table/Makes.sql" />
-        <option value="$PROJECT_DIR$/Models/Resources/MakeResource.cs" />
-        <option value="$PROJECT_DIR$/Models/Resources/ModelResource.cs" />
-        <option value="$PROJECT_DIR$/Mapping/Resources/ModelResource.cs" />
-        <option value="$PROJECT_DIR$/Models/Model.cs" />
-        <option value="2701c072-f47b-4fb5-bfff-80fd6657c2bc/database/AngularCore/schema/dbo/table/Models.sql" />
-        <option value="$PROJECT_DIR$/Mapping/Resources/FeatureResource.cs" />
-        <option value="$PROJECT_DIR$/Controllers/FeaturesController.cs" />
-        <option value="$PROJECT_DIR$/ClientApp/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.html" />
-        <option value="$PROJECT_DIR$/ClientApp/src/index.html" />
-        <option value="$PROJECT_DIR$/ClientApp/src/app/services/feature.service.ts" />
-        <option value="$PROJECT_DIR$/ClientApp/src/app/services/make.service.ts" />
-        <option value="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/Controllers/MakesController.cs" />
-        <option value="$PROJECT_DIR$/ClientApp/src/app/services/vehicle.service.ts" />
-        <option value="$PROJECT_DIR$/Models/Make.cs" />
-        <option value="$PROJECT_DIR$/Models/Feature.cs" />
         <option value="$PROJECT_DIR$/Models/Vehicle.cs" />
         <option value="$PROJECT_DIR$/Models/VehicleFeature.cs" />
         <option value="$PROJECT_DIR$/Models/AppDbContext.cs" />
         <option value="$PROJECT_DIR$/Mapping/Resources/ContactResource.cs" />
-        <option value="$PROJECT_DIR$/Mapping/Resources/SaveVehicleResource.cs" />
         <option value="$PROJECT_DIR$/Mapping/Resources/KeyValuePairResource.cs" />
         <option value="$PROJECT_DIR$/Mapping/Resources/MakeResource.cs" />
         <option value="$PROJECT_DIR$/Mapping/Resources/VehicleResource.cs" />
-        <option value="$PROJECT_DIR$/Mapping/MappingProfile.cs" />
         <option value="$PROJECT_DIR$/Repository/IVehicleRepository.cs" />
         <option value="$PROJECT_DIR$/Repository/IUnitOfWork.cs" />
         <option value="$PROJECT_DIR$/DIPCore/IUnitOfWork.cs" />
-        <option value="$PROJECT_DIR$/DIPCore/IVehicleRepository.cs" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Repository/UnitOfWork.cs" />
-        <option value="$PROJECT_DIR$/Repository/VehicleRepository.cs" />
-        <option value="$PROJECT_DIR$/Controllers/VehiclesController.cs" />
-        <option value="$PROJECT_DIR$/ClientApp/src/app/vehicle-form/vehicle-form.component.html" />
+        <option value="$PROJECT_DIR$/Mapping/Resources/SaveVehicleResource.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2701c072-f47b-4fb5-bfff-80fd6657c2bc/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2701c072-f47b-4fb5-bfff-80fd6657c2bc/console_2.sql" />
+        <option value="$PROJECT_DIR$/appsettings.Development.json" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/app.error-handler.ts" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/shared/Vehicle.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/models/keyValueKey.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/models/keyValuePair.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/models/contact.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/models/vehicle.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/vehicle-form/vehicle-form.component.html" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.css" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.html" />
+        <option value="$PROJECT_DIR$/Mapping/Resources/ModelResource.cs" />
+        <option value="$PROJECT_DIR$/Controllers/ModelsController.cs" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/services/vehicle.service.ts" />
+        <option value="$PROJECT_DIR$/Models/Filter.cs" />
+        <option value="$PROJECT_DIR$/Mapping/Resources/FilterResource.cs" />
+        <option value="$PROJECT_DIR$/Models/VehicleQueryForm.cs" />
+        <option value="$PROJECT_DIR$/Models/VehicleQueryy.cs" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/vehicle-form/vehicle-form.component.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/package.json" />
+        <option value="$PROJECT_DIR$/ClientApp/src/index.html" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/Models/VehicleQuery.cs" />
+        <option value="$PROJECT_DIR$/Mapping/Resources/VehicleQueryResource.cs" />
+        <option value="$PROJECT_DIR$/Extensions/IQuery.cs" />
+        <option value="$PROJECT_DIR$/Extensions/QueryableExtensions.cs" />
+        <option value="$PROJECT_DIR$/Models/QueryResult.cs" />
+        <option value="$PROJECT_DIR$/Mapping/Resources/QueryResultResource.cs" />
+        <option value="$PROJECT_DIR$/Mapping/MappingProfile.cs" />
+        <option value="$PROJECT_DIR$/DIPCore/IVehicleRepository.cs" />
+        <option value="$PROJECT_DIR$/Controllers/VehiclesController.cs" />
+        <option value="$PROJECT_DIR$/Repository/VehicleRepository.cs" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/vehicle-list/vehicle-list.component.html" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/pagination/pagination.component.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/pagination/pagination.component.html" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/vehicle-list/vehicle-list.component.ts" />
       </list>
     </option>
   </component>
@@ -177,12 +190,14 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="ts.external.directory.path" value="D:\Visual\AngularCoreApp\AngularCoreApp\ClientApp\node_modules\typescript\lib" />
     <property name="ts.rename.search.for.dynamic.occurrences" value="true" />
@@ -313,6 +328,13 @@
       <workItem from="1570955938142" duration="250000" />
       <workItem from="1570956207645" duration="8443000" />
       <workItem from="1570972428960" duration="5234000" />
+      <workItem from="1571036733091" duration="7148000" />
+      <workItem from="1571045833403" duration="1747000" />
+      <workItem from="1571048290440" duration="6997000" />
+      <workItem from="1571113269049" duration="1238000" />
+      <workItem from="1571114525990" duration="22947000" />
+      <workItem from="1571197569891" duration="6971000" />
+      <workItem from="1571205901673" duration="2526000" />
     </task>
     <servers />
   </component>
@@ -333,6 +355,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
   <component name="XDebuggerManager">

@@ -1,9 +1,9 @@
 <header>
   <nav
-    class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-5"
+    class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom mb-5"
   >
     <div class="container">
-      <a class="navbar-brand" [routerLink]="['/']"><i class="fab fa-angular"></i> AngularCoreApp</a>
+      <a class="navbar-brand" [routerLink]="['']"><i class="fab fa-angular"></i> AngularCoreApp</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -21,7 +21,11 @@
       >
         <ul class="navbar-nav flex-grow">
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light" [routerLink]="['/vehicle-form']"
+            <a class="nav-link text-light" [routerLink]="['/vehicles']"
+            >Vehicle list</a>
+          </li>
+          <li class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link text-light" [routerLink]="['/vehicles/new']"
             ><i class="fas fa-plus-circle"></i> Add Vehicle</a>
           </li>
           <li>

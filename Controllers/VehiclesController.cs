@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using AngularCoreApp.DIPCore;
 using AngularCoreApp.Mapping.Resources;
@@ -99,6 +101,15 @@ namespace AngularCoreApp.Controllers
             await _unitOfWork.CompleteAsync();
 
             return Ok(id);
+        }
+
+        [HttpGet]
+        public async Task<QueryResultResource<VehicleResource>> GetVehicles(VehicleQueryResource filterResource)
+        {
+            var filter = _mapper.Map<VehicleQueryResource, VehicleQuery>(filterResource);
+            var queryResult = await _vehicleRepository.GetVehicles(filter);
+
+            return _mapper.Map<QueryResult<Vehicle>, QueryResultResource<VehicleResource>>(queryResult);
         }
     }
 }

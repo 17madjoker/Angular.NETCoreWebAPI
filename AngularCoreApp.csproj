@@ -26,7 +26,10 @@
     <Content Remove="$(SpaRoot)**" />
     <None Remove="$(SpaRoot)**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
-    <None Include="ClientApp\src\app\shared\Vehicle.ts" />
+    <None Include="ClientApp\src\app\app.error-handler.ts" />
+    <None Include="ClientApp\src\app\models\contact.ts" />
+    <None Include="ClientApp\src\app\models\keyValueKey.ts" />
+    <None Include="ClientApp\src\app\models\vehicle.ts" />
   </ItemGroup>
 
   <ItemGroup>
