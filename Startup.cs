@@ -3,15 +3,14 @@ using AngularCoreApp.Mapping;
 using AngularCoreApp.Models;
 using AngularCoreApp.Repository;
 using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
-using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace AngularCoreApp
 {
@@ -27,16 +26,27 @@ namespace AngularCoreApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddLogging(
-                builder =>
-                {
-                    builder.AddFilter("Microsoft", LogLevel.None)
-                        .AddFilter("System", LogLevel.None)
-                        .AddFilter("NToastNotify", LogLevel.None)
-                        .AddConsole();
-                });
+//            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+//                .AddJwtBearer(options =>
+//                {
+//                    options.Audience = "https://ddevd.auth0.com/";
+//                    options.Authority = "https://core.api.com";
+//                });
+            
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(options =>
+            {
+                options.Authority = "https://ddevd.auth0.com/";
+                options.Audience = "https://core.api.com";
+            });
+            
+            services.Configure<PhotoSettings>(Configuration.GetSection("PhotoSettings"));
             
             services.AddScoped<IVehicleRepository, VehicleRepository>();
+            services.AddScoped<IPhotoRepository, PhotoRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
                 
             services.AddAutoMapper(typeof(MappingProfile));
@@ -78,8 +88,11 @@ namespace AngularCoreApp
             {
                 app.UseSpaStaticFiles();
             }
-
+            
             app.UseRouting();
+            
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

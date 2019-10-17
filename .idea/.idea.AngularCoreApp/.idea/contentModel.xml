@@ -53,7 +53,9 @@
           <e p="source-list-map" t="IncludeRecursive" />
         </e>
         <e p="node_modules\ajv" t="IncludeRecursive" />
+        <e p="node_modules\angular2-jwt" t="IncludeRecursive" />
         <e p="node_modules\aspnet-prerendering" t="IncludeRecursive" />
+        <e p="node_modules\auth0-lock" t="IncludeRecursive" />
         <e p="node_modules\blocking-proxy" t="IncludeRecursive" />
         <e p="node_modules\bootstrap" t="IncludeRecursive" />
         <e p="node_modules\canonical-path" t="IncludeRecursive" />
@@ -94,52 +96,6 @@
         <e p="node_modules\ts-node" t="IncludeRecursive" />
         <e p="node_modules\tslib" t="IncludeRecursive" />
         <e p="node_modules\tslint" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.dom.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.dom.iterable.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2015.collection.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2015.core.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2015.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2015.generator.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2015.iterable.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2015.promise.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2015.proxy.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2015.reflect.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2015.symbol.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2015.symbol.wellknown.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2016.array.include.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2016.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2016.full.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2017.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2017.full.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2017.intl.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2017.object.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2017.string.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2017.typedarrays.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2018.asynciterable.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2018.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2018.full.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2018.intl.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2018.promise.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2018.regexp.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2019.array.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2019.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2019.full.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2019.string.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es2019.symbol.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es5.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.es6.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.esnext.array.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.esnext.bigint.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.esnext.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.esnext.full.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.esnext.intl.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.esnext.symbol.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.scripthost.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.webworker.d.ts" t="IncludeRecursive" />
-        <e p="node_modules\typescript\lib\lib.webworker.importscripts.d.ts" t="IncludeRecursive" />
         <e p="node_modules\upath" t="IncludeRecursive" />
         <e p="node_modules\uri-js" t="IncludeRecursive" />
         <e p="node_modules\webdriver-js-extender" t="IncludeRecursive" />
@@ -184,6 +140,8 @@
               <e p="pagination.component.ts" t="Include" />
             </e>
             <e p="services" t="Include">
+              <e p="photo.service.ts" t="Include" />
+              <e p="progress.service.ts" t="Include" />
               <e p="vehicle.service.ts" t="Include" />
             </e>
             <e p="vehicle-form" t="Include">
@@ -194,6 +152,10 @@
             <e p="vehicle-list" t="Include">
               <e p="vehicle-list.component.html" t="Include" />
               <e p="vehicle-list.component.ts" t="Include" />
+            </e>
+            <e p="view-vehicle" t="Include">
+              <e p="view-vehicle.component.html" t="Include" />
+              <e p="view-vehicle.component.ts" t="Include" />
             </e>
           </e>
           <e p="assets" t="Include">
@@ -221,10 +183,11 @@
         <e p="FeaturesController.cs" t="Include" />
         <e p="MakesController.cs" t="Include" />
         <e p="ModelsController.cs" t="Include" />
+        <e p="PhotosController.cs" t="Include" />
         <e p="VehiclesController.cs" t="Include" />
-        <e p="WeatherForecastController.cs" t="Include" />
       </e>
       <e p="DIPCore" t="Include">
+        <e p="IPhotoRepository.cs" t="Include" />
         <e p="IUnitOfWork.cs" t="Include" />
         <e p="IVehicleRepository.cs" t="Include" />
       </e>
@@ -238,6 +201,7 @@
           <e p="ContactResource.cs" t="Include" />
           <e p="KeyValuePairResource.cs" t="Include" />
           <e p="MakeResource.cs" t="Include" />
+          <e p="PhotoResource.cs" t="Include" />
           <e p="QueryResultResource.cs" t="Include" />
           <e p="SaveVehicleResource.cs" t="Include" />
           <e p="VehicleQueryResource.cs" t="Include" />
@@ -247,6 +211,8 @@
       <e p="Migrations" t="Include">
         <e p="20191012123819_InitMigration.cs" t="Include" />
         <e p="20191012123819_InitMigration.Designer.cs" t="Include" />
+        <e p="20191016090210_AddPhoto.cs" t="Include" />
+        <e p="20191016090210_AddPhoto.Designer.cs" t="Include" />
         <e p="AppDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
@@ -254,6 +220,8 @@
         <e p="Feature.cs" t="Include" />
         <e p="Make.cs" t="Include" />
         <e p="Model.cs" t="Include" />
+        <e p="Photo.cs" t="Include" />
+        <e p="PhotoSettings.cs" t="Include" />
         <e p="QueryResult.cs" t="Include" />
         <e p="Vehicle.cs" t="Include" />
         <e p="VehicleFeature.cs" t="Include" />
@@ -278,13 +246,19 @@
         <e p="launchSettings.json" t="Include" />
       </e>
       <e p="Repository" t="Include">
+        <e p="PhotoRepository.cs" t="Include" />
         <e p="UnitOfWork.cs" t="Include" />
         <e p="VehicleRepository.cs" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
-      <e p="WeatherForecast.cs" t="Include" />
       <e p="wwwroot" t="Include">
         <e p="favicon.ico" t="Include" />
+        <e p="uploads" t="Include">
+          <e p="00213f64-f56b-4bb3-b954-d4f83464da13.png" t="Include" />
+          <e p="8aa639c2-f490-4c04-9c1b-792a80e7932e.png" t="Include" />
+          <e p="981b49b5-474a-4e5e-bba7-288269c3b54b.png" t="Include" />
+          <e p="cf70a8fc-cbe6-40bb-a3f9-78920e48bbf8.jpg" t="Include" />
+        </e>
       </e>
     </e>
   </component>

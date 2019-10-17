@@ -16,6 +16,7 @@ namespace AngularCoreApp.Models
         public DbSet<Feature> Features { get; set; }
         public DbSet<Vehicle> Vehicles { get; set; }
         public DbSet<VehicleFeature> VehiclesFeatures { get; set; }
+        public DbSet<Photo> Photos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

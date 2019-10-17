@@ -6,6 +6,7 @@ using AngularCoreApp.DIPCore;
 using AngularCoreApp.Mapping.Resources;
 using AngularCoreApp.Models;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AngularCoreApp.Controllers

@@ -17,6 +17,8 @@ namespace AngularCoreApp.Mapping
 
             CreateMap(typeof(QueryResult<>), typeof(QueryResultResource<>));
 
+            CreateMap<Photo, PhotoResource>();
+            
             CreateMap<Make, MakeResource>();
             
             CreateMap<Make, KeyValuePairResource>();

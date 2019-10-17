@@ -12,6 +12,7 @@ namespace AngularCoreApp.Models
         public Vehicle()
         {
             Features = new Collection<VehicleFeature>();
+            Photos = new Collection<Photo>();
         }
         
         public int Id { get; set; }
@@ -35,5 +36,7 @@ namespace AngularCoreApp.Models
         public DateTime LastUpdate { get; set; }
 
         public ICollection<VehicleFeature> Features { get; set; }
+
+        public ICollection<Photo> Photos { get; set; }
     }
 }
